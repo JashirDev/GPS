@@ -1,0 +1,6 @@
+
+saber sha 1 = gradle---> refresh --> [nomvbre apliacion]-->task-->android--> doble kick en sigingreport
+
+Crear clave de google consele:
+--> crear proyecto--> crendeciales(creapas nueva credencial selecciona api restrige clave)->apliacion android ()ponser sha1 y nombre de apliacon)-->
+-->biblioteca ---> google mpa android api,places,geocoding,geolocation(habiliatr)
