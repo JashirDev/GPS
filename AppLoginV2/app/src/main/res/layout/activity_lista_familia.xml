@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaFamiliaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="Familia Vegetal"
+                    android:id="@+id/btFamilia"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="Arroz"
+                    android:id="@+id/btFamilia1"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="azucar"
+                    android:id="@+id/btFamilia2"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:id="@+id/btFamilia3"
+                    android:text="Bebidas"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btFamilia4"
+                    android:text="alcoholicas"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:id="@+id/btFamilia5"
+                    android:text="carne de cerdo"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btFamilia6"
+                    android:text="carne de pollo"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:id="@+id/btFamilia7"
+                    android:text="carne vacuno"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="comida"
+                    android:id="@+id/btFamilia8"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:id="@+id/btFamilia9"
+                    android:text="crema dental"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="detergente"
+                    android:id="@+id/btFamilia10"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="embutidos"
+                    android:id="@+id/btFamilia11"
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="enlatados"
+                    android:id="@+id/btFamilia12"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="frutas"
+                    android:id="@+id/btFamilia13"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="galletas"
+                    android:id="@+id/btFamilia14"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="gaseosas"
+                    android:id="@+id/btFamilia15"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="harinas"
+                    android:id="@+id/btFamilia16"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="infusiones"
+                    android:id="@+id/btFamilia17"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="jabon de lavar"
+                    android:id="@+id/btFamilia18"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="lavavajillas"
+                    android:id="@+id/btFamilia19"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="leche"
+                    android:id="@+id/btFamilia20"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="Mantequilla"
+                    android:id="@+id/btFamilia21"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="Mayonesa"
+                    android:id="@+id/btFamilia22"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="Pan"
+                    android:id="@+id/btFamilia23"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="pañales"
+                    android:id="@+id/btFamilia24"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="paneton"
+                    android:id="@+id/btFamilia25"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="papel higienico"
+                    android:id="@+id/btFamilia26"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="postres"
+                    android:id="@+id/btFamilia27"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="queso"
+                    android:id="@+id/btFamilia28"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="snacks"
+                    android:id="@+id/btFamilia29"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="suavizante"
+                    android:id="@+id/btFamilia30"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="toallitas humedas"
+                    android:id="@+id/btFamilia31"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="turron"
+                    android:id="@+id/btFamilia32"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="verduras"
+                    android:id="@+id/btFamilia33"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="yogurt"
+                    android:id="@+id/btFamilia34"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="pavo"
+                    android:id="@+id/btfamilia35"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="fideos"
+                    android:id="@+id/btFamilia36"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+                <Button
+                    android:text="pan embolsado"
+                    android:id="@+id/btFamilia37"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
